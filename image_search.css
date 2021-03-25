@@ -1,0 +1,107 @@
+@charset "utf-8";
+.s_form_wrapper {
+	padding-bottom: 100px;
+	text-align: center;
+	*z-index: 1;
+	position:relative;
+	top: 90px;
+	min-height:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display:block;
+	font: 12px arial;
+}
+#form{
+	margin: 22px auto 0;
+}
+.image_1{
+	font: 12px arial;
+	list-style: none;
+	text-align: center;
+	width: 270px;
+	aspect-ratio: auto 270 / 129;
+	height: 129px;
+	border: 0;
+}
+.s_ipt_wr {
+	font: 12px arial;
+	list-style: none;
+	text-align: left;
+	height: 34px;
+	border: 1px solid #b6b6b6;
+	background: #fff;
+	display: inline-block;
+	vertical-align: top;
+	width: 539px;
+	margin-right: 0;
+	border-right-width: 0;
+	border-color: #b8b8b8 transparent #ccc #b8b8b8;
+	overflow: hidden;
+	background-image: none;
+}
+#kw{
+	position: relative;
+}
+.s_ipt {
+	width: 526px;
+	height: 22px;
+	font: 16px/18px arial;
+	line-height: 22px\9;
+	margin: 6px 0 0 7px;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	-webkit-appearance: none;
+}
+.s_btn {
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	width: 100px;
+	height: 36px;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: #3385ff;
+	border-bottom: 1px solid #2d78f4;
+	outline: medium;
+	*border-bottom: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	list-style: none;
+	background-image: none;
+}
+#u1 {
+	z-index: 2;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 19px 0 5px 0;
+	padding: 0 96px 0 0;
+}
+#background{
+	border: 0;
+	font: inherit;
+	font-family: "Arial, sans-serif"!important;
+	font-size: 100%;
+	vertical-align: baseline;
+	padding: 0;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -10;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	zoom: 1;
+	background-color: #000;
+	background-image: url(./image/beijing.jpg);
+}
